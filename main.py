@@ -4,7 +4,6 @@ from psycopg2.extras import RealDictCursor
 
 app = Flask(__name__)
 
-# Configurações do banco de dados - altere conforme sua instalação
 DB_CONFIG = {
     "dbname": "SistemaEscola",
     "user": "postgres",
